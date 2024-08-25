@@ -66,7 +66,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-      <iframe
+      {/* <iframe
         className="w-[280px] h-[200px] md:w-[700px] md:h-[420px] bg-red-700 mb-[100px]"
         style={{ maxHeight: "560px" }}
         src="hero.mp4"
@@ -74,7 +74,7 @@ const AboutSection = () => {
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-      ></iframe>
+      ></iframe> */}
       <Tokenomix />
     </div>
   );

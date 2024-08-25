@@ -52,7 +52,7 @@ export default function Sponsors() {
         <div className="flex md:flex-row flex-col gap-8 items-center justify-between py-12">
           <Image
             className="col-span-2 object-contain lg:col-span-1 "
-            src="/1.png"
+            src="/sun.png"
             alt=""
             width={350}
             height={100}
@@ -72,7 +72,7 @@ export default function Sponsors() {
           </div>
           <Image
             className="col-span-2 object-contain lg:col-span-1"
-            src="/11.png"
+            src="/sundog.png"
             alt=""
             width={350}
             height={300}
