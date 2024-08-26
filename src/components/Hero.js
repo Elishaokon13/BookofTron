@@ -29,7 +29,7 @@ const HeroSection = () => {
         >
           <div className="flex items-center justify-center ">
             <Image
-              src="/hero.png"
+              src="/sundog.png"
               alt="MTGA"
               width={80}
               height={80}
