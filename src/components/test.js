@@ -7,7 +7,7 @@ const ImageRowWithSocials = () => {
   return (
     <div
       className="bg-cover bg-center pt-20 bg-no-repeat py-[100px]"
-      style={{ backgroundImage: "url('/bg.png')" }}
+      style={{ backgroundImage: "url('/')" }}
     >
       <div className="container mx-auto overflow-hidden">
         <Marquee className="gap-8">
@@ -23,6 +23,24 @@ const ImageRowWithSocials = () => {
 
           <div className="text-center animate-pulse">
             <Image
+              src="/red.png"
+              alt="Image 2"
+              width={250}
+              height={250}
+              className="m-4"
+            />
+          </div>
+          <div className="text-center animate-pulse">
+            <Image
+              src="/2.png"
+              alt="Image 2"
+              width={250}
+              height={250}
+              className="m-4"
+            />
+          </div>
+          <div className="text-center animate-pulse">
+            <Image
               src="/3.png"
               alt="Image 2"
               width={250}
@@ -32,7 +50,7 @@ const ImageRowWithSocials = () => {
           </div>
           <div className="text-center animate-pulse">
             <Image
-              src="/4.png"
+              src="/5.png"
               alt="Image 2"
               width={250}
               height={250}
@@ -41,25 +59,7 @@ const ImageRowWithSocials = () => {
           </div>
           <div className="text-center animate-pulse">
             <Image
-              src="/8.png"
-              alt="Image 2"
-              width={250}
-              height={250}
-              className="m-4"
-            />
-          </div>
-          <div className="text-center animate-pulse">
-            <Image
-              src="/7.png"
-              alt="Image 2"
-              width={250}
-              height={250}
-              className="m-4"
-            />
-          </div>
-          <div className="text-center animate-pulse">
-            <Image
-              src="/4.png"
+              src="/sun.png"
               alt="Image 2"
               width={250}
               height={250}

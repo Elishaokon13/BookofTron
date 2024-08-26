@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
-import ImageRowWithSocials from "./test";
 import { useTrail, animated } from "react-spring";
 import Tokenomix from "@/components/Tokenomic";
+import ImageRowWithSocials from "./test";
 
 const AboutSection = () => {
   const initialCount = 1624000;
@@ -23,24 +23,17 @@ const AboutSection = () => {
       key="title"
       className="text-3xl sm:text-5xl font-permanentMarker mt-[00px] font-bold mb-8"
     >
-      MTGA has come to stay!
+      $MTGA has come to stay!
     </h1>,
     <p
       key="description"
       className="max-w-4xl text-[#9fa91b] font-hanaleiFill mx-auto text-lg leading-relaxed mb-8"
     >
-      MTGA is an anthropomorphic frog character based on the famous comic book
-      «The Night Riders», published in 2012 by artist and illustrator Matt
-      Furie. Today, this is one of the few characters of Matt Furie that can
-      truly be considered unique.
-      <br />
-      MTGA began his memetic revolution through countless iterations of memes
-      cementing his iconic status, mastering every form with his unparalleled
-      power. With its roots in internet culture, MTGA infuses humour and meme
-      magic into the world, fostering a movement that unites and makes everyone
-      happy
-      <br />
-      Together, we're unstoppable
+      Make Tron Great Again $MTGA is a vision that upholds the Tron community. Built on the foundation of Tron DAO's success and inspired by the bullish projects that have thrived on the network. <br/>
+      <br/>
+      TRON has already proven itself as a powerhouse as we’ve seen projects defy expectations, breaking ATHs against overwhelming odds. The resilience and innovation within the Tron ecosystem have been nothing short of remarkable. $MTGA isn't about resting on our laurels. It's about recognizing our potential to be even better. We're creating a future where TRON isn't just great, but unequivocally the best.<br/>
+
+      <br/>$MTGA is your opportunity to be part of something truly revolutionary. Together, we won't just make Tron great again - we'll make it greater than ever before.
     </p>,
   ];
 
@@ -49,12 +42,12 @@ const AboutSection = () => {
     to: { opacity: 1, transform: "translateY(0)" },
     config: { mass: 1, tension: 280, friction: 60 },
   });
-
+  
   return (
     <div className="mx-auto flex flex-col items-center bg-red-700">
       <div
         className="bg-cover bg-center bg-red-700 bg-no-repeat mx-auto w-full bg-red-700 flex flex-col justify-center"
-        style={{ backgroundImage: "url('/bg.png')" }}
+        style={{ backgroundImage: "url('/')" }}
       >
         <div className="relative w-full text-white p-8">
           <div className="relative text-center">
@@ -66,6 +59,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
+      <ImageRowWithSocials/>
       {/* <iframe
         className="w-[280px] h-[200px] md:w-[700px] md:h-[420px] bg-red-700 mb-[100px]"
         style={{ maxHeight: "560px" }}

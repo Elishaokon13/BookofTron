@@ -59,12 +59,12 @@ const InfoComponent = () => {
         <div className="flex items-center justify-center">
           <div className="flex flex-col space-y-4 w-full md:w-1/2">
             <img
-              src="/sun.png"
+              src="/lambo.jpeg"
               alt="MTGA Info Graphic 1"
               className="w-full md:w-auto h-auto object-cover mx-auto"
             />
             <img
-              src="/sundog.png"
+              src="/royce.jpeg"
               alt="MTGA Info Graphic 2"
               className="w-full md:w-auto h-auto object-cover mx-auto"
             />
