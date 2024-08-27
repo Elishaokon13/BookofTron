@@ -15,15 +15,15 @@ const InfoComponent = () => {
       number: 2,
       title: "GET SOME TRX",
       description:
-        "Have TRX in your wallet to switch to $MTGA. If you don't have any TRX, you can buy TRX from an exchange or cross-chain swap and send it to your wallet.",
+        "Have TRX in your wallet to switch to $BOT. If you don't have any TRX, you can buy TRX from an exchange or cross-chain swap and send it to your wallet.",
     },
     {
       number: 3,
       title: "GO TO SunSwap",
       description:
-        "Connect to SunSwap. Go to SunSwap.io in your browser inside your TronLink app. Connect your wallet. Paste the $MTGA token address into SunSwap and confirm the swap. When TronLink prompts you for a wallet signature, sign it.",
+        "Connect to SunSwap. Go to SunSwap.io in your browser inside your TronLink app. Connect your wallet. Paste the $BOT token address into SunSwap and confirm the swap. When TronLink prompts you for a wallet signature, sign it.",
     },
-    { number: 4, title: "SWAP", description: "Switch TRX for $MTGA." },
+    { number: 4, title: "SWAP", description: "Switch TRX for $BOT." },
   ];
 
   const trail = useTrail(steps.length, {
@@ -39,7 +39,7 @@ const InfoComponent = () => {
       >
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-8 h-full">
         <div className="flex flex-col justify-center space-y-8">
-          <h2 className="text-4xl font-bold mb-6">How to Buy $MTGA</h2>
+          <h2 className="text-4xl font-bold mb-6">How to Buy $BOT</h2>
           <div className="space-y-8 font-permanentMarker">
             {trail.map((props, index) => (
               <animated.div

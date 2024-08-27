@@ -23,17 +23,17 @@ const AboutSection = () => {
       key="title"
       className="text-3xl sm:text-5xl font-permanentMarker mt-[00px] font-bold mb-8"
     >
-      $MTGA has come to stay!
+      $BOT has come to stay!
     </h1>,
     <p
       key="description"
       className="max-w-4xl text-[#9fa91b] font-hanaleiFill mx-auto text-lg leading-relaxed mb-8"
     >
-      Make Tron Great Again $MTGA is a vision that upholds the Tron community. Built on the foundation of Tron DAO's success and inspired by the bullish projects that have thrived on the network. <br/>
+      Book of Tron $BOT is a vision that upholds the Tron community. Built on the foundation of Tron DAO's success and inspired by the bullish projects that have thrived on the network. <br/>
       <br/>
-      TRON has already proven itself as a powerhouse as we’ve seen projects defy expectations, breaking ATHs against overwhelming odds. The resilience and innovation within the Tron ecosystem have been nothing short of remarkable. $MTGA isn't about resting on our laurels. It's about recognizing our potential to be even better. We're creating a future where TRON isn't just great, but unequivocally the best.<br/>
+      TRON has already proven itself as a powerhouse as we’ve seen projects defy expectations, breaking ATHs against overwhelming odds. The resilience and innovation within the Tron ecosystem have been nothing short of remarkable. $BOT isn't about resting on our laurels. It's about recognizing our potential to be even better. We're creating a future where TRON isn't just great, but unequivocally the best.<br/>
 
-      <br/>$MTGA is your opportunity to be part of something truly revolutionary. Together, we won't just make Tron great again - we'll make it greater than ever before.
+      <br/>$BOT is your opportunity to be part of something truly revolutionary. Together, we won't just Book of Tron - we'll make it greater than ever before.
     </p>,
   ];
 

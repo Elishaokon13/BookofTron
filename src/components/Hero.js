@@ -29,28 +29,32 @@ const HeroSection = () => {
         >
           <div className="flex items-center justify-center ">
             <Image
-              src="/sundog.png"
+              src="/Bot2.png"
               alt="MTGA"
-              width={80}
-              height={80}
+              width={980}
+              height={980}
               className="mr-4"
             />
-            <h1 className="text-[50px] md:text-[80px] lg:text-[100px] text-shadow text-white font-permanentMarker font-extralight text-center">
-              $MTGA
-            </h1>
+            
           </div>
 
-          <div className="mt-0 p-2 flex flex-col md:flex-row items-center justify-center font-hanaleiFill text-white rounded text-sm md:text-2xl font-bold w-full max-w-3xl">
+          {/* <div className="mt-0 p-2 flex flex-col md:flex-row items-center justify-center font-hanaleiFill text-white rounded text-sm md:text-2xl font-bold w-full max-w-3xl">
             <span className="text-center md:text-center">
               {" "}
               is on a mission to take over the meme universe. The time has come
               for MTGA to show his greatness.
             </span>
-          </div>
+          </div> */}
+          <h1 className="text-[50px] md:text-[80px] lg:text-[100px] text-shadow text-white font-permanentMarker font-extralight text-center">
+              $BOT
+            </h1>
 
-          <div className="flex justify-center p-8">
-            <img src="/hero.png" className="w-[300px] h-[300px]"/>
-          </div>
+          {/* <div className="flex justify-center p-8">
+            <Image src="/Bot2.png" alt="MTGA"
+              width={380}
+              height={380}
+              />
+          </div> */}
 
           {/* <Tokenomix/> //replace with video */}
           <div className="flex justify-center space-x-4 md:space-x-8 pt-4">
